@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.115.4">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio web del desarrollador de software Felipe Buriticá.">
+    <meta name="keywords" content="Software development, programmer, tech, technology, software, backend">
+    <meta name="author" content="Felipe Buriticá">
+    <meta name="robots" content="follow">
+
+    <title>Felipe Buritica | Portfolio</title>
+
+    <link rel="icon" href='http://example.org/img/favicon.ico' type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body class="min-vh-100 d-flex flex-column"><header class="header" id="header">
+    <nav class="nav container">
+
+        <a href="#" class="nav__logo" id="nav-logo">Felipe</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class="uil uil-estate nav__icon"></i> Home
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                        <i class="uil uil-user nav__icon"></i> About
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class="uil uil-file-alt nav__icon"></i> Skills
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">
+                        <i class="uil uil-scenery nav__icon"></i> Portfolio
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class="uil uil-message nav__icon"></i> Contact
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class="uil uil-file-alt nav__icon"></i> Blog
+                    </a>
+                </li>
+            </ul>
+
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="content">
+    <main class="main" style="min-height: 1500px;">
+
+        <section class="home section" id="home">
+            <div class="home__container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/anferubu/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/anferubu" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://www.instagram.com/anferubu/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                <image class="home__blob-img" x="0" y="5" xlink:href="./images/profile1.png"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm <span class="my-name">Felipe</span></h1>
+                        <h3 class="home__subtitle">Software developer</h3>
+                        <p class="home__description">
+                            A considerable amount of experience in web design
+                            and development, always striving to produce work of
+                            high quality.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About me</h2>
+            <span class="section__subtitle">My presentation</span>
+
+            <div class="about__container grid">
+                <img src="./images/about.jpg" alt="About me" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Software developer with experience in design, development and
+                        documentation of web applications, using agile methodologies
+                        in programming languages such as Python, PHP and JavaScript.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">
+                                <i class="uil uil-map"></i>
+                            </span>
+                            <span class="about__info-name">From <br> Colombia</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">
+                                <i class="uil uil-user-square"></i>
+                            </span>
+                            <span class="about__info-name">27 <br> Years old</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">1.5+</span>
+                            <span class="about__info-name">Years of <br> experience</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a href="./docs/CV_2023.pdf" download="" target="_blank" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Some of the technologies I use</span>
+
+            <div class="skills__container grid">
+                <div>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Backend</h1>
+                                <span class="skills__subtitle">I like Python and Django</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python logo">
+                                            <p class="skills__subtitle">Python</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django logo">
+                                            <p class="skills__subtitle">Django</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/offices/40/000000/php-logo.png" alt="PHP logo">
+                                            <p class="skills__subtitle">PHP</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="https://logospng.org/download/laravel/logo-laravel-icon-1024.png" width="48" alt="Laravel logo">
+                                            <p class="skills__subtitle">Laravel</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="PostgreSQL logo">
+                                            <p class="skills__subtitle">PostgreSQL</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL logo">
+                                            <p class="skills__subtitle">MySQL</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git logo">
+                                            <p class="skills__subtitle">Git</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/office/48/selenium-test-automation.png" alt="Selenium logo">
+                                            <p class="skills__subtitle">Selenium</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/fluency/48/console.png" alt="Bash icon">
+                                            <p class="skills__subtitle">Bash</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend</h1>
+                                <span class="skills__subtitle">It's not much, but it's honest work</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data table-responsive">
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript logo">
+                                            <p class="skills__subtitle">JavaScript</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML logo">
+                                            <p class="skills__subtitle">HTML</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS logo">
+                                            <p class="skills__subtitle">CSS</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap loco">
+                                            <p class="skills__subtitle">Boostrap</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="https://img.icons8.com/color/48/tailwindcss.png" alt="Tailwind logo">
+                                            <p class="skills__subtitle">Tailwind</p>
+                                        </td>
+                                        <td class="text-center">
+                                            <img width="48" height="48" src="https://img.icons8.com/color/48/sass.png" alt="Sass">
+                                            <p class="skills__subtitle">Sass</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/jquery.png" alt="JQuery">
+                                            <p class="skills__subtitle">JQuery</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section">
+            <h2 class="section__title">Qualifications</h2>
+            <span class="section__subtitle">My academic and professional journey</span>
+
+            <div class="qualification__container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__data">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="./images/univalle.jpg" alt="Univalle" width="75" class="img-fluid">
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Computer Engineering</h3>
+                                <span class="qualification__subtitle">University of Valle</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - 2024
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="./images/ucaldas.png" alt="Ucaldas" width="90" class="img-fluid">
+                            </div>
+                            <div>
+                                <h3 class="qualification__title mt-3">Geology</h3>
+                                <span class="qualification__subtitle">University of Caldas</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2013 - 2018
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualification qualification__content" data-content id="work">
+                        <div class="qualification__data">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="./images/proalba.png" alt="Proalba" width="75" class="img-fluid">
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Systems Assistant</h3>
+                                <span class="qualification__subtitle">Proalba Ltda.</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jul. 2022 - Current
+                                </div>
+                                <p class="qualification__text mt-3">
+                                    Support and maintenance of the company's internal software,
+                                    which includes an ERP built with Laravel and a website made
+                                    with WordPress.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <i class="uil uil-coins fs-1"></i>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Automated Testing</h3>
+                                <span class="qualification__subtitle">(Frelance)</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Sep. 2021 - Dec. 2021
+                                </div>
+                                <p class="qualification__text mt-3">
+                                    Creation of automated tests with Python and Selenium
+                                    for the registration and affiliation forms of the client's website.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-11 col-sm-10 col-md-10 col-lg-8 col-xl-7 col-xxl-8  mx-auto">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                            </div>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-6 d-flex flex-column justify-content-center mb-md-4">
+                                                <img src="./images/instaclone.gif" alt="Instagram clone" class="img-fluid rounded carousel-img">
+                                            </div>
+
+                                            <div class="col-md-6 d-flex flex-column justify-content-center">
+                                                <div class="card-body d-flex flex-column justify-content-evenly">
+                                                    <h5 class="portfolio__title">Instagram clone</h5>
+                                                    <p class="portfolio__description mb-4">
+                                                        A basic social network for sharing photos.
+                                                    </p>
+                                                    <p class="card-text">
+                                                        <span class="badge rounded-pill text-bg-light my-1">Laravel</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">PostgreSQL</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">HTML</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">CSS</span>
+                                                    </p>
+                                                    <a href="https://github.com/anferubu/laravel_instagram_clone" target="_blank" class="portfolio__link text-end mt-2">See more <i class="uil uil-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-6 d-flex flex-column justify-content-center mb-md-4">
+                                                <img src="./images/tecnobox.gif" alt="E-commerce" class="img-fluid rounded carousel-img">
+                                            </div>
+
+                                            <div class="col-md-6 d-flex flex-column justify-content-center">
+                                                <div class="card-body d-flex flex-column justify-content-evenly">
+                                                    <h5 class="portfolio__title">E-commerce</h5>
+                                                    <p class="portfolio__description mb-4">
+                                                        A virtual store to sell technological products.
+                                                    </p>
+                                                    <p class="card-text">
+                                                        <span class="badge rounded-pill text-bg-light my-1">Django</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">JavaScript</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">JQuery</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">PostgreSQL</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">HTML</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">CSS</span>
+                                                    </p>
+                                                    <a href="https://github.com/anferubu/tecnobox" target="_blank" class="portfolio__link text-end mt-2">See more <i class="uil uil-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-6 d-flex flex-column justify-content-center mb-md-4">
+                                                <img src="./images/tetris.png" alt="Tetris game" class="img-fluid rounded carousel-img">
+                                            </div>
+
+                                            <div class="col-md-6 d-flex flex-column justify-content-center">
+                                                <div class="card-body d-flex flex-column justify-content-evenly">
+                                                    <h5 class="portfolio__title">Tetris game</h5>
+                                                    <p class="portfolio__description mb-4">
+                                                        The classic game of Tetris. <br>
+                                                        <a href="https://laughing-easley-28dc25.netlify.app/" target="_blank" class="portfolio__link text-end mt-2">See demo</a>
+                                                    </p>
+                                                    <p class="card-text">
+                                                        <span class="badge rounded-pill text-bg-light my-1">JavaScript</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">HTML</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">CSS</span>
+                                                    </p>
+                                                    <a href="https://github.com/anferubu/TetrisGame" target="_blank" class="portfolio__link text-end mt-2">See more <i class="uil uil-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-6 d-flex flex-column justify-content-center mb-md-4">
+                                                <img src="./images/snake.png" alt="Snake game" class="img-fluid rounded carousel-img">
+                                            </div>
+
+                                            <div class="col-md-6 d-flex flex-column justify-content-center">
+                                                <div class="card-body d-flex flex-column justify-content-evenly">
+                                                    <h5 class="portfolio__title">Snake game</h5>
+                                                    <p class="portfolio__description mb-4">
+                                                        The classic game of Snake in JavaScript. <br>
+                                                        <a href="https://competent-bohr-e4af0c.netlify.app/" target="_blank" class="portfolio__link text-end mt-2">See demo</a>
+                                                    </p>
+                                                    <p class="card-text">
+                                                        <span class="badge rounded-pill text-bg-light my-1">JavaScript</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">HTML</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">CSS</span>
+                                                    </p>
+                                                    <a href="https://github.com/anferubu/snakeGameJS" target="_blank" class="portfolio__link text-end mt-2">See more <i class="uil uil-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-6 d-flex flex-column justify-content-center mb-md-4">
+                                                <img src="./images/sorting.gif" alt="Sorting viewer" class="img-fluid rounded carousel-img">
+                                            </div>
+
+                                            <div class="col-md-6 d-flex flex-column justify-content-center">
+                                                <div class="card-body d-flex flex-column justify-content-evenly">
+                                                    <h5 class="portfolio__title">Sorting viewer</h5>
+                                                    <p class="portfolio__description mb-4">
+                                                        Visualizer of different sorting algorithms.
+                                                    </p>
+                                                    <p class="card-text">
+                                                        <span class="badge rounded-pill text-bg-light my-1">JavaScript</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">HTML</span>
+                                                        <span class="badge rounded-pill text-bg-light my-1">CSS</span>
+                                                    </p>
+                                                    <a href="#" target="_blank" class="portfolio__link text-end mt-2">See more <i class="uil uil-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true">
+                                    <i class="uil uil-angle-left-b"></i>
+                                </span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true">
+                                    <i class="uil uil-angle-right-b"></i>
+                                </span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Thanks for getting here!</h2>
+            <span class="section__subtitle">Feel free to send me a message</span>
+
+            <div class="contact__container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Colombia</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <a href="https://wa.me/573145099743?text=¡Hola!%20He%20revisado%20tu%20portafolio%20de%20desarrollador%20y%20me%20encantaría%20hablar%20sobre%20colaboraciones%20futuras." class="contact__subtitle">(+57) 314 509 9743</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <a href="mailto:andres.ruizburitica@gmail.com" class="contact__subtitle">andres.ruizburitica@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="var(--first-color)" fill-opacity="1" d="M0,128L80,117.3C160,107,320,85,480,112C640,139,800,213,960,218.7C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
+<footer class="container-fluid footer">
+    <div class="footer__socials">
+        <a href="https://www.facebook.com/andres.ruizburitica/" class="footer__social" target="_blank">
+            <i class="uil uil-facebook"></i>
+        </a>
+        <a href="https://twitter.com/anferubu/" class="footer__social" target="_blank">
+            <i class="uil uil-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anferubu/" class="footer__social" target="_blank">
+            <i class="uil uil-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/anferubu/" class="footer__social" target="_blank">
+            <i class="uil uil-instagram"></i>
+        </a>
+    </div>
+
+    <p class="footer__copy">
+        &copy; 2023
+        <b>Felipe Buriticá</b> &nbsp; | <wbr>
+        &nbsp; All Rights Reserved
+    </p>
+</footer>
+
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+<script src="./js/sss.js"></script></body>
+</html>
